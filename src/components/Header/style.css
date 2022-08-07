@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    align-items: center;
+    height: 15%;
+    background-color: rgb(136, 139, 136);
+}
+.header__title{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5%;
+    height: 100%;
+    font-size: 50px;
+}
+.header__button svg{
+    cursor: pointer;
+}

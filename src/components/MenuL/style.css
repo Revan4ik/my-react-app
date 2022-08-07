@@ -1,0 +1,22 @@
+.left-menu{
+    background-color: rgb(136, 139, 136);
+    display: flex;
+    width: 0%;
+    height: 100%;
+    transition: all 1s; 
+}
+
+.left-menu li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+.left-menu li a{
+    color: black;
+    cursor: pointer;
+}
+
+.left-menu.active{
+    width: 10%;
+}
