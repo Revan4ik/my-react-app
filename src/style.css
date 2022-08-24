@@ -1,0 +1,28 @@
+*, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(145, 144, 142, 0.63);
+}
+.container{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    background-color: #122b1bd1;
+    padding: 40px;
+}
+.to-do-list-container{
+    width: 90%;
+    padding: 35px 0;
+}
+.do-list{
+    width: 300px;
+    background-color: #0d1f17a8;
+}
+
+
+

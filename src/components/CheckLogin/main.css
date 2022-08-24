@@ -1,0 +1,19 @@
+.todo-form {
+  max-width: 400px;
+  padding: 30px;
+  background-color: #cccccc;
+  border-radius: 10px;
+}
+
+.title-h2 {
+  margin: 0;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.input-user {
+  padding: 11px 20px;
+  margin-right: 10px;
+}

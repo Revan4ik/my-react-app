@@ -1,0 +1,60 @@
+.todo-list {
+  max-width: 550px;
+  padding: 30px;
+  background-color: #2e2e2e;
+}
+
+.title-h1,
+.title-h3 {
+  color: #ffffff;
+}
+
+.input-task {
+  width: 250px;
+  padding: 11px 20px;
+  margin-right: 10px;
+}
+
+.title-h3 {
+  margin: 30px 0 20px 0;
+}
+
+.task-list {
+  margin: 0;
+  padding: 0;
+}
+
+.task-list__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.task-list__id {
+  margin-right: 10px;
+}
+
+.task-list__txt {
+  margin: 0;
+  color: #ffffff;
+}
+
+.task-list__txt-done {
+  text-decoration: line-through;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn-done {
+  padding: 10px 15px;
+  background-color: #0d1f14;
+  color: #EDF2F4;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}

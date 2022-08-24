@@ -1,8 +1,20 @@
+.main-wrap {
+  height: 100vh;
+  background-color: #cccccc;
+}
 
-.container{
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  min-height: 100vh;
   display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 85%;
-  background-color: rgb(56, 52, 47);
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  border: none;
+  outline: none;
+  height: 20px;
 }

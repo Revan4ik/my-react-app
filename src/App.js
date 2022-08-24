@@ -1,21 +1,23 @@
-import './App.css';
-import Header from './components/Header';
-import Content from './components/Content';
-import {LeftMenu, activeMenu} from './components/MenuL';
-
-
+import "./App.css";
+import React, { useState } from "react";
+import CheckLogin from "./components/CheckLogin";
+import TodoList from "./components/TodoList";
 
 function App() {
+  const [user, setUser] = useState(null);
+  const [tasks, setTasks] = useState([]);
   return (
-    <div className='App'>
-      <Header title ='Header' menuActive = {activeMenu} />
+    <div className="main-wrap">
       <div className="container">
-        <LeftMenu item1 ="Menu item" item2 ="Menu item" 
-        item3 ="Menu item" item4 ="Menu item" item5 ="Menu item"/>
-        <Content text = 'Something' />
+        {user ? (
+          <TodoList user={user} tasks={tasks} setTasks={setTasks} />
+        ) : (
+          <CheckLogin setUser={setUser} setTasks={setTasks} />
+        )}
       </div>
     </div>
   );
 }
 
 export default App;
+
